@@ -1,0 +1,28 @@
+.card {
+    width: 320px;
+    min-width: 320px;
+    margin: 10px 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    transition: 200ms;
+    object-fit: cover;
+}
+
+.card:hover img {
+    filter: brightness(110%);
+    transform: scale(1.01);
+    box-shadow: 3px 3px 5px #0003;
+}
+
+.card h4 {
+    color: #fdfdfd;
+}
+
+.card label {
+    font-size: 14px;
+    color: #666;
+}

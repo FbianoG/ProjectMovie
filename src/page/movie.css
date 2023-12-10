@@ -1,0 +1,154 @@
+.movie-content {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.movie-content img {
+    width: 400px;
+
+}
+
+.movie-data {
+    padding: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fdfdfd;
+    font-size: 15px;
+    height: 100%;
+}
+
+.movie-data h1 {
+    font-size: 35px;
+}
+
+
+.movie-data label {
+    color: #888;
+    font-size: 17px;
+}
+
+.movie-data p {
+    color: #ccc;
+    
+}
+
+.movie-data
+
+.genres {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.genres span {
+    padding: 3px 5px;
+    color: #222;
+    background: #ccc;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.details {
+    margin: 50px 0;
+    display: flex;
+    gap: 50px;
+    color: #ccc;
+
+}
+
+
+
+.site {
+    margin: 40px 0;
+    display: flex;
+    gap: 6px;
+}
+
+.site a {
+    text-decoration: none;
+    color: #888;
+    
+}
+
+.site a:hover {
+    transition: 200ms;
+    color: #666;
+    text-decoration: underline;
+}
+
+.production-title {
+    margin: auto 0 20px;
+}
+.production {
+    /* margin: auto 0 0; */
+    display: flex;
+    gap: 20px;
+}
+
+.company {
+text-decoration: underline;
+}
+
+
+
+
+.search-bar {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-bar input {
+    width: 100%;
+}
+.search-bar-movies {
+    width: 400px;
+    border: 1px solid #555;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    max-height: 500px;
+    background: #222;
+    padding: 5px;
+}
+
+.search-bar-movies::-webkit-scrollbar {
+width: 6px;
+}
+
+.search-bar-movies::-webkit-scrollbar-track {
+background: #151515;
+border-radius: 10px;
+}
+
+.search-bar-movies::-webkit-scrollbar-thumb {
+background: #ddd;
+border-radius: 10px;
+}
+
+.search-bar-movies a {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.search-bar-movies a:hover {
+    transition: 200ms;
+    opacity: 1;
+    background: #333;
+}
+
+.search-bar-movies a img {
+    width: 50px;
+    border-radius: 3px;
+}
